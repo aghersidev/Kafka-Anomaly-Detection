@@ -1,0 +1,17 @@
+{
+  "type": "record",
+  "name": "AugmentedStockData",
+  "namespace": "org.aghersi",
+  "fields": [
+    {"name": "date", "type": "string"},
+    {"name": "open", "type": ["double", "null"]},
+    {"name": "high", "type": ["double", "null"]},
+    {"name": "low", "type":["double", "null"]},
+    {"name": "close", "type": ["double", "null"]},
+    {"name": "adj_close", "type": ["double", "null"]},
+    {"name": "volume", "type":["double", "null"]},
+    {"name": "up", "type": "double"},
+    {"name": "down", "type": "double"},
+    {"name": "size", "type": "double"}
+  ]
+}

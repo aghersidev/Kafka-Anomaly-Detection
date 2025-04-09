@@ -1,0 +1,13 @@
+{
+  "type": "record",
+  "name": "AnomalyDetectionResult",
+  "namespace": "org.aghersi",
+  "fields": [
+    {"name": "date", "type": "string"},
+    {"name": "adj_close", "type": ["double", "null"]},
+    {"name": "score", "type": ["double", "null"]},
+    {"name": "dynamic_threshold", "type": ["double", "null"]},
+    {"name": "method", "type": "string"},
+    {"name": "detected_time", "type": "string"}
+  ]
+}
